@@ -2,6 +2,10 @@ import pymysql
 
 # python 连接数据库
 db =pymysql.connect(
+    host='',
+    user='',
+    password='',
+    database='',
     )
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()
